@@ -1,0 +1,80 @@
+
+body, h1, h2, h3, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+
+header {
+  text-align: center;
+}
+
+
+.time-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+
+.hour {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+.description {
+  flex: 1;
+  height: 30px; 
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.saveBtn, .removeBtn {
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.saveBtn {
+  background-color: #4CAF50;
+}
+
+
+.removeBtn {
+  background-color: #f44336; 
+}
+
+
+.past {
+  background-color: #d3d3d3; 
+}
+
+.present {
+  background-color: #ff6961; 
+}
+
+.future {
+  background-color: #98fb98; 
+}
