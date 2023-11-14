@@ -26,3 +26,8 @@ This is a simple calendar application designed to help users manage their daily 
 - jQuery
 - [Day.js](https://day.js.org/) for date and time manipulation
 
+## Links To project
+
+https://github.com/bakomans/Dynamic-Calendar-is-amazing
+
+https://bakomans.github.io/Dynamic-Calendar-is-amazing/
